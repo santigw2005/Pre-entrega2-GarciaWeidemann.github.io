@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, div, span, applet, object, iframe, p, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+#carouselExampleIndicators {
+	width: 50%;
+	height: auto;
+}
+*/
+
+*{
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-size: 2.7em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+.body {
+	background-color: rgb(240, 240, 240);
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 10% 10% 60% 10% 10%;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgb(20, 20, 20);
+	color: rgb(200, 200, 200);
+	font-family: 'Alfa Slab One';
+	padding: 2%;
+}
+
+.contacto-header {
+	text-decoration: none;
+	color: white;
+}
+
+.menu-header {
+	text-decoration: none;
+	color: white;
+}
+
+.locales-header {
+	text-decoration: none;
+	color: white;
+}
+
+.nosotros-header {
+	text-decoration: none;
+	color: white;
+}
+
+
+.imgtxt3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.footer {
+	background-color: gray;
+	padding-left: 20px;
+}
+
+.rollygo-footer {
+	font-family: 'Alfa Slab One';
+	padding-top: 30px;
+}
+
+.email {
+	margin-top: 30px;
+}
+
+.telefono {
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.attcliente {
+	color: black;
+}
+
+
+
+
+
+
