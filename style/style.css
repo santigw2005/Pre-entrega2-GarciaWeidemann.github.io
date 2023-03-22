@@ -1,49 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, div, span, applet, object, iframe, p, blockquote, pre, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 /* 
 #carouselExampleIndicators {
 	width: 50%;
@@ -51,97 +5,304 @@ table {
 }
 */
 
+/*BODY*/
+
 *{
 	box-sizing: border-box;
-}
-
-h1 {
-	font-size: 3.5em;
-}
-
-h2 {
-	font-size: 2.7em;
-}
-
-h3 {
-	font-size: 2em;
-}
-
-p {
-	font-size: 1.25em;
 }
 
 .body {
 	background-color: rgb(240, 240, 240);
 }
 
-.header {
-	display: grid;
-	grid-template-columns: 10% 10% 60% 10% 10%;
-	align-self: center;
-	align-content: center;
-	align-items: center;
-	text-align: center;
-	background-color: rgb(20, 20, 20);
-	color: rgb(200, 200, 200);
-	font-family: 'Alfa Slab One';
-	padding: 2%;
+@media (max-width: 1280px) {
+ 
+
+
+	/*HEADER MOBILE*/
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgb(20, 20, 20);
+		color: rgb(200, 200, 200);
+		font-family: 'Alfa Slab One';
+		padding: 2%;
+	}
+
+	.rollygo {
+		font-size: 1.9em;
+		padding-top: 1em;
+	}
+
+	.contacto-header h3 {
+		text-decoration: none;
+		color: white;
+		font-size: 0.85em;
+		padding-top: 1.5em;
+	}
+
+	.menu-header h3 {
+		text-decoration: none;
+		color: white;
+		font-size: 0.85em;
+		padding-top: .55em;
+	}
+
+	.locales-header h3 {
+		text-decoration: none;
+		color: white;
+		font-size: 0.85em;
+		padding-top: .55em;
+	}
+
+	.nosotros-header h3 {
+		text-decoration: none;
+		color: white;
+		font-size: 0.85em;
+		padding-top: .55em;
+	}
+
+
+
+	/*BODY INDEX MOBILE*/
+
+	.imgtxtindex {
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		font-weight: bold;
+	}
+
+	.imgtxtindex2 {
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		font-weight: bold;
+	}
+
+	.imgtxtindex3 {
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		font-weight: bold;
+	}
+
+	.div-img-index1 .sushi20 {
+		display: none;
+	}
+
+	.div-img-index1 .sushi22 {
+		display: none;
+	}
+
+	.div-img-index2 .sushi24 {
+		display: none;
+	}
+
+	.div-img-index2 .sushi15 {
+		display: none;
+	}
+
+	.div-img-index3 .sushi9 {
+		display: none;
+	}
+
+	.div-img-index3 .sushi11 {
+		display: none;
+	}
+
+	.te-esperamos {
+		font-size: 1em;
+		text-align: center;
+		font-weight: bold;
+	}
+
+
+
+
+	/*PAGINA CONTACTO MOBILE*/
+
+	.headercontacto h1 {
+		font-size: 2.5em;
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	.headercontacto p {
+		text-align: center;
+		padding-top: 1em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.form {
+		padding-left: 2em;
+		padding-top: 3em;
+		padding-bottom: 2em;
+	}
+
+	.contactbutton {
+		margin-top: 1em;
+	}
+
+	.emailtel {
+		padding-left: 1em;
+	}
+
+
+	/*FOOTER MOBILE*/
+
+	.footer-distributed {
+		padding-left: 1em;
+	}
+
+	.rollandgofooter {
+		font-family: 'Alfa Slab One', serif;
+		padding-top: 1em;
+	}
+
+	.footer-distributed a {
+		color: black;
+	}
+
 }
 
-.contacto-header {
-	text-decoration: none;
-	color: white;
-}
-
-.menu-header {
-	text-decoration: none;
-	color: white;
-}
-
-.locales-header {
-	text-decoration: none;
-	color: white;
-}
-
-.nosotros-header {
-	text-decoration: none;
-	color: white;
-}
 
 
-.imgtxt3 {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	text-align: center;
+
+
+/*MODO DESKTOP*/
+
+/*INDEX DESKTOP*/
+
+@media (min-width: 1281px){
 	
+
+
+	/*HEADER DESKTOP*/
+
+	.header {
+		display: grid;
+		grid-template-columns: 60% 10% 10% 10% 10%;
+		text-align: center;
+		align-content: center;
+		background-color: rgb(20, 20, 20);
+		color: rgb(240, 240, 240);
+		font-family: 'Alfa Slab One';
+		padding: 2%;
+	}
+
+	.rollygo {
+		font-size: 50px;
+		text-align: start;
+	}
+
+	.header .contacto-header {
+		color: rgb(100, 100, 100);
+	}
+
+	.header .menu-header {
+		color: rgb(100, 100, 100);
+	}
+
+	.header .locales-header {
+		color: rgb(100, 100, 100);
+	}
+
+	.header .nosotros-header {
+		color: rgb(100, 100, 100);
+	}
+
+
+
+
+	/*BOSY INDEX DESKTOP*/
+
+	.imgtxtindex p {
+		font-size: 1.5em;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.imgtxtindex2 p {
+		font-size: 1.5em;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.imgtxtindex3 p {
+		font-size: 1.5em;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.div-img-index1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.div-img-index2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.div-img-index3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.te-esperamos {
+		text-align: center;
+		font-weight: bold;
+	}
+
+
+
+
+	/*PAGINA DE CONTACTO DESKTOP*/
+
+	/*BODY CONTACTO DESKTOP*/
+
+	.contacto-page-title {
+		text-align: center;
+		padding-top: 4vh;
+	}
+
+	.contacto-page-title .contacto-page-title-txt {
+		font-size: 3em;
+	}
+
+	.contacto-page-txt {
+		text-align: center;
+	}
+
+	.contacto-page-txt .contacto-page-txt-1{
+		font-size: 1.1em;
+		padding-top: 2vh;
+	}
+
+	.form {
+		text-align: center;
+		padding-top: 6vh;
+	}
+
+	.contactbutton {
+		margin-top: 1.7vh;
+	}
+
+
+
+
+	/*FOOTER DESKTOP*/
+
+	.footer-distributed {
+		margin-top: 5vh;
+		padding-top: 2vh;
+		border-radius: 1px;
+		padding-left: 2vh;
+	}
+
+
 }
-
-.footer {
-	background-color: gray;
-	padding-left: 20px;
-}
-
-.rollygo-footer {
-	font-family: 'Alfa Slab One';
-	padding-top: 30px;
-}
-
-.email {
-	margin-top: 30px;
-}
-
-.telefono {
-	margin-top: 30px;
-	padding-bottom: 20px;
-}
-
-.attcliente {
-	color: black;
-}
-
-
-
-
-
-
