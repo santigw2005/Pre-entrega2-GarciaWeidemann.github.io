@@ -305,4 +305,112 @@
 	}
 
 
+
+
+	/*LOCALES DESKTOP*/
+
+	.nuestros-locales {
+		text-align: center;
+		margin-top: 4em;
+		margin-bottom: 4em;
+		text-decoration: underline solid 5px black;
+	}
+
+	.locales {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.local1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 90%;
+		text-align: center;
+		justify-items: center;
+		row-gap: 5em;
+		margin-top: 3em;
+		border: solid gray 10px;
+		border-radius: 25px;
+		justify-self: center;
+	}
+
+	.local1 .local-unicenter {
+		align-self: center;
+	}
+
+	.mapa-local1 {
+		width: 100%;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+
+	.local2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 90%;
+		text-align: center;
+		justify-items: center;
+		row-gap: 5em;
+		margin-top: 3em;
+		border: solid gray 10px;
+		border-radius: 25px;
+		justify-self: center;
+	}
+
+	.local2 .local-paseo-mendoza {
+		align-self: center;
+	}
+
+	.mapa-local2 {
+		width: 100%;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+
+	.local3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 90%;
+		text-align: center;
+		justify-items: center;
+		row-gap: 5em;
+		margin-top: 3em;
+		border: solid gray 10px;
+		border-radius: 25px;
+		justify-self: center;
+	}
+
+	.local3 .local-tigre {
+		align-self: center;
+	}
+
+	.mapa-local3 {
+		width: 100%;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+
+	.local4 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 90%;
+		text-align: center;
+		justify-items: center;
+		row-gap: 5em;
+		margin-top: 3em;
+		border: solid gray 10px;
+		border-radius: 25px;
+		justify-self: center;
+	}
+
+	.local4 .local-san-isidro {
+		align-self: center;
+	}
+
+	.mapa-local4 {
+		width: 100%;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+	}
+
 }
