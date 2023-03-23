@@ -304,6 +304,10 @@
 		padding-left: 2vh;
 	}
 
+	.footer-distributed .footer-left a {
+		color: black;
+	}
+
 
 
 
@@ -412,5 +416,57 @@
 		border-top-left-radius: 15px;
 		border-bottom-left-radius: 15px;
 	}
+
+
+
+
+	/*MENU DESKTOP*/
+
+	.menu-sushi-title {
+		text-align: center;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		text-decoration: underline;
+	}
+
+	.menu-sushi1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 5em;
+	}
+
+	.menu-sushi1 .menu-sushi1-img {
+		border-radius: 20px;
+		justify-self: end;
+	}
+
+	.menu-sushi1 .menu-sushi1-txt {
+		justify-self: start;
+		align-self: center;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	.menu-sushi1-txt .menu-sushi1-nombre {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	.menu-sushi1-txt .menu-sushi1-des {
+		font-size: 1.2em;
+	}
+
+	.menu-sushi1-txt .menu-sushi1_precio {
+		font-size: 1.1em;
+	}
+
+
+
+
+	/*NOSOTROS DESKTOP*/
+
+	
 
 }
