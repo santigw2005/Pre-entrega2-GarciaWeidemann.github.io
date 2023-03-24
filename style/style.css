@@ -302,6 +302,7 @@
 		padding-top: 2vh;
 		border-radius: 1px;
 		padding-left: 2vh;
+		padding-bottom: 2vh;
 	}
 
 	.footer-distributed .footer-left a {
@@ -465,8 +466,39 @@
 
 
 
+
 	/*NOSOTROS DESKTOP*/
 
-	
+	#nosotros {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: center;
+		text-align: center;
+	}
+
+	#nosotros {
+		color: white;
+		background-image: linear-gradient(
+			0deg,
+			rgba(0,0,0,0.8),
+			rgba(0,0,0,0.8)
+		)
+		,url(../images/sushi8.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		margin-top: 3em;
+	}
+
+	.quienesomos {
+		margin-top: 5em;
+	}
+
+	#nosotros .nosotros-txt {
+		margin-top: 2em;
+		width: 60%;
+		margin-bottom: 10em;
+		padding-bottom: 8em;
+	}
 
 }
