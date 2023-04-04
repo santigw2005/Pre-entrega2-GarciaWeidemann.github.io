@@ -1,0 +1,433 @@
+*{
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: rgb(240, 240, 240);
+}
+
+
+@media (max-width: 1280px) {
+
+    /*INDEX MOBILE*/
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(20, 20, 20);
+        color: rgb(200, 200, 200);
+        font-family: 'Alfa Slab One';
+        padding: 2%;
+        .rollygo {
+            a {
+            font-size: 1em;
+            padding-top: 1em;
+            text-decoration: none;
+            color: rgb(100, 100, 100);
+            }
+        }
+        .header-txt h3 {
+		color: white;
+		font-size: 1em;
+		padding-top: .55em;
+        text-decoration: none;
+        }
+    }
+
+    .imgtxtindex {
+        display: flex;
+		text-align: center;
+		flex-direction: column;
+		font-weight: bold;
+    }
+
+    .div-img-index {
+        .sushi20 {
+            display: none;
+        }
+    
+        .sushi22 {
+            display: none;
+        }
+    
+        .sushi24 {
+            display: none;
+        }
+    
+        .sushi15 {
+            display: none;
+        }
+    
+        .sushi9 {
+            display: none;
+        }
+    
+        .sushi11 {
+            display: none;
+        }
+    }
+
+
+    .te-esperamos {
+        font-size: 1em;
+		text-align: center;
+		font-weight: bold;
+    }
+
+
+    /*CONTACTO MOBILE*/
+    
+
+    .contacto-page-title {
+        text-align: center;
+		padding-top: 4vh;
+        .contacto-page-title-txt {
+            font-size: 3em;
+        }
+
+    }
+    
+    .contacto-page-txt {
+		text-align: center;
+        .contacto-page-txt-1{
+            font-size: 1.1em;
+            padding-top: 2vh;
+        }
+	}
+
+    .form {
+		text-align: center;
+		padding-top: 6vh;
+	}
+
+    .contactbutton {
+		margin-top: 1.7vh;
+        
+	}
+    
+
+
+    /*LOCALES MOBILE*/
+
+    .nuestros-locales {
+		text-align: center;
+		margin-top: 4em;
+		margin-bottom: 4em;
+		text-decoration: underline solid 5px black;
+	}
+    
+    .locales-div {
+		display: grid;
+		grid-template-columns: 1fr;
+        .locales {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 90%;
+            text-align: center;
+            justify-items: center;
+            row-gap: 5em;
+            margin-top: 3em;
+            border: solid gray 10px;
+            border-radius: 25px;
+            justify-self: center;
+        }
+    
+        .mapa-local {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+
+        .local {
+            align-self: center;
+        }
+	}
+
+
+
+    /*MENU MOBILE*/
+    .menu-sushi-title {
+		text-align: center;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		text-decoration: underline;
+	}
+
+    .menu-sushi1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 5em;
+
+        .menu-sushi1-img {
+            border-radius: 20px;
+            justify-self: end;
+            height: auto;
+        }
+
+        .menu-sushi1-txt {
+            justify-self: start;
+            align-self: center;
+            list-style: none;
+            .menu-sushi1-nombre {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            .menu-sushi1-des {
+                font-size: 1.2em;
+            }
+            .menu-sushi1_precio {
+                font-size: 1.1em;
+            }
+            
+        }
+
+	}
+
+
+
+    /*NOSOTROS DESKTOP*/
+    #nosotros {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: center;
+		text-align: center;
+		color: white;
+		background-image: linear-gradient(
+			0deg,
+			rgba(0,0,0,0.8),
+			rgba(0,0,0,0.8)
+		)
+		,url(../images/sushi8.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+        .nosotros-txt {
+            margin-top: 2em;
+            width: 60%;
+            margin-bottom: 10em;
+            padding-bottom: 8em;
+        }
+	}
+    .quienesomos {
+		margin-top: 5em;
+	}
+
+
+    /*FOOTER MOBILE*/
+
+    .footer-distributed {
+		padding-left: 1em;
+        a {
+            color: black;
+        }
+        padding-bottom: 20px;
+	}
+
+    .rollandgofooter {
+		font-family: 'Alfa Slab One', serif;
+		padding-top: 1em;
+        margin-top: 1em;
+	}
+
+}
+
+
+/*MODO DESKTOP*/
+@media (min-width: 1281px) {
+
+    /*INDEX DESKTOP*/
+
+    .header {
+		display: grid;
+		grid-template-columns: 60% 10% 10% 10% 10%;
+		text-align: center;
+        align-content:center;
+		background-color: rgb(20, 20, 20);
+		color: rgb(240, 240, 240);
+		font-family: 'Alfa Slab One';
+		padding: 2%;
+
+      .header-txt {
+        color: rgb(100, 100, 100);
+        }
+      .rollygo {
+		font-size: 50px;
+		text-align: start;
+        a {
+            text-decoration: none;
+            color: rgb(100, 100, 100);
+        }
+	    }
+	}
+
+
+    .imgtxtindex {
+        p {
+        font-size: 1.5em;
+		text-align: center;
+		font-weight: bold;
+        }
+    }
+    
+    .div-img-index {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+    .te-esperamos {
+		text-align: center;
+		font-weight: bold;
+	}
+
+
+    /*PAGINA DE CONTACTO DESKTOP*/
+
+    .contacto-page-title {
+        text-align: center;
+		padding-top: 4vh;
+        .contacto-page-title-txt {
+            font-size: 3em;
+        }
+
+    }
+    
+    .contacto-page-txt {
+		text-align: center;
+        .contacto-page-txt-1{
+            font-size: 1.1em;
+            padding-top: 2vh;
+        }
+	}
+
+    .form {
+		text-align: center;
+		padding-top: 6vh;
+	}
+
+    .contactbutton {
+		margin-top: 1.7vh;
+	}
+
+
+    /*FOOTER DESKTOP*/
+
+    .footer-distributed {
+		margin-top: 5vh;
+		padding-top: 2vh;
+		border-radius: 1px;
+		padding-left: 2vh;
+		padding-bottom: 2vh;
+
+        .footer-left a {
+            color: black;
+        }
+
+	}
+
+
+    /*LOCALES DESKTOP*/
+
+    .nuestros-locales {
+		text-align: center;
+		margin-top: 4em;
+		margin-bottom: 4em;
+		text-decoration: underline solid 5px black;
+	}
+
+    .locales-div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+        .locales {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 90%;
+            text-align: center;
+            justify-items: center;
+            row-gap: 5em;
+            margin-top: 3em;
+            border: solid gray 10px;
+            border-radius: 25px;
+            justify-self: center;
+        }
+    
+        .mapa-local {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+
+        .local {
+            align-self: center;
+        }
+	}
+
+
+    /*MENU DESKTOP*/
+    .menu-sushi-title {
+		text-align: center;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		text-decoration: underline;
+	}
+
+    .menu-sushi1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 5em;
+
+        .menu-sushi1-img {
+            border-radius: 20px;
+            justify-self: end;
+        }
+
+        .menu-sushi1-txt {
+            justify-self: start;
+            align-self: center;
+            list-style: none;
+            .menu-sushi1-nombre {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            .menu-sushi1-des {
+                font-size: 1.2em;
+            }
+            .menu-sushi1_precio {
+                font-size: 1.1em;
+            }
+            
+        }
+
+	}
+
+
+    /*NOSOTROS DESKTOP*/
+
+    #nosotros {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-items: center;
+		text-align: center;
+		color: white;
+		background-image: linear-gradient(
+			0deg,
+			rgba(0,0,0,0.8),
+			rgba(0,0,0,0.8)
+		)
+		,url(../images/sushi8.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		margin-top: 3em;
+        .nosotros-txt {
+            margin-top: 2em;
+            width: 60%;
+            margin-bottom: 10em;
+            padding-bottom: 8em;
+        }
+	}
+    .quienesomos {
+		margin-top: 5em;
+	}
+
+}
