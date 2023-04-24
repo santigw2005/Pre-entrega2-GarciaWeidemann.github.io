@@ -6,7 +6,7 @@
   background-color: rgb(240, 240, 240);
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   /*INDEX MOBILE*/
   .header {
     display: flex;
@@ -88,11 +88,11 @@
   /*LOCALES MOBILE*/
   .nuestros-locales {
     text-align: center;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 1em;
     -webkit-text-decoration: underline solid 3px black;
             text-decoration: underline solid 3px black;
     font-family: "Cinzel Decorative", cursive;
+    font-size: 3em;
   }
   .locales-div {
     display: grid;
@@ -102,11 +102,11 @@
     font-family: "Cormorant Garamond", serif;
     background-color: rgb(230, 230, 230);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3em;
     width: 90%;
     text-align: center;
     justify-items: center;
-    row-gap: 5em;
+    row-gap: 1em;
     margin-top: 3em;
     border: solid rgb(100, 100, 100) 3px;
     border-radius: 25px;
@@ -116,6 +116,7 @@
     width: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   .locales-div .local {
     align-self: center;
@@ -127,21 +128,24 @@
     margin-top: 2em;
     margin-bottom: 2em;
     text-decoration: underline;
+    font-size: 3em;
   }
   .menu-sushi1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5em;
+    display: grid 1fr;
+    align-self: center;
+    text-align: center;
   }
   .menu-sushi1 .menu-sushi1-img {
     border-radius: 20px;
     justify-self: end;
     height: auto;
+    margin-top: 5em;
   }
   .menu-sushi1 .menu-sushi1-txt {
     justify-self: start;
     align-self: center;
     list-style: none;
+    margin-top: 1em;
   }
   .menu-sushi1 .menu-sushi1-txt .menu-sushi1-nombre {
     font-family: "Cinzel Decorative", cursive;
@@ -156,7 +160,7 @@
     font-family: "Frank Ruhl Libre", serif;
     font-size: 1.1em;
   }
-  /*NOSOTROS DESKTOP*/
+  /*NOSOTROS MOBILE*/
   #nosotros {
     display: grid;
     grid-template-columns: 1fr;
@@ -178,6 +182,7 @@
   .quienesomos {
     font-family: "Cinzel Decorative", cursive;
     margin-top: 5em;
+    font-size: 2em;
   }
   /*FOOTER MOBILE*/
   .footer-distributed {
@@ -193,8 +198,211 @@
     margin-top: 1em;
   }
 }
+/*MODO TABLET*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  /*INDEX TABLET*/
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    color: rgb(200, 200, 200);
+    font-family: "Alfa Slab One";
+    padding: 2%;
+  }
+  .header .rollygo a {
+    font-size: 2em;
+    padding-top: 1em;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+  }
+  .header .header-txt h3 {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.55em;
+    text-decoration: none;
+  }
+  .imgtxtindex {
+    font-family: "Cinzel Decorative", cursive;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .div-img-index .sushi20 {
+    display: none;
+  }
+  .div-img-index .sushi22 {
+    display: none;
+  }
+  .div-img-index .sushi24 {
+    display: none;
+  }
+  .div-img-index .sushi15 {
+    display: none;
+  }
+  .div-img-index .sushi9 {
+    display: none;
+  }
+  .div-img-index .sushi11 {
+    display: none;
+  }
+  .te-esperamos {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  /*CONTACTO TABLET*/
+  .contacto-page-title {
+    font-family: "Cinzel Decorative", cursive;
+    text-align: center;
+    padding-top: 4vh;
+  }
+  .contacto-page-title .contacto-page-title-txt {
+    font-size: 3em;
+  }
+  .contacto-page-txt {
+    font-family: "Nanum Myeongjo", serif;
+    text-align: center;
+  }
+  .contacto-page-txt .contacto-page-txt-1 {
+    font-size: 1.8em;
+    padding-top: 2vh;
+  }
+  .form {
+    font-family: "Cinzel Decorative", cursive;
+    text-align: center;
+    padding-top: 6vh;
+    font-size: 1.5em;
+  }
+  .contactbutton {
+    margin-top: 1.7vh;
+  }
+  /*LOCALES TABLET*/
+  .nuestros-locales {
+    text-align: center;
+    margin-top: 1em;
+    -webkit-text-decoration: underline solid 3px black;
+            text-decoration: underline solid 3px black;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 3em;
+  }
+  .nuestros-locales h2 {
+    font-size: 1em;
+  }
+  .locales-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .locales-div .locales {
+    font-family: "Cormorant Garamond", serif;
+    background-color: rgb(230, 230, 230);
+    display: grid;
+    grid-template-rows: 1fr 3em;
+    width: 90%;
+    text-align: center;
+    justify-items: center;
+    row-gap: 1em;
+    margin-top: 3em;
+    border: solid rgb(100, 100, 100) 3px;
+    border-radius: 25px;
+    justify-self: center;
+  }
+  .locales-div .mapa-local {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .locales-div .local {
+    align-self: center;
+  }
+  .locales-div .local h2 {
+    font-size: 2.5em;
+  }
+  /*MENU TABLET*/
+  .menu-sushi-title {
+    font-family: "Cinzel Decorative", cursive;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+    font-size: 3em;
+  }
+  .menu-sushi1 {
+    display: grid 1fr;
+    align-self: center;
+    text-align: center;
+  }
+  .menu-sushi1 .menu-sushi1-img {
+    border-radius: 20px;
+    justify-self: end;
+    height: auto;
+    margin-top: 5em;
+  }
+  .menu-sushi1 .menu-sushi1-txt {
+    justify-self: start;
+    align-self: center;
+    list-style: none;
+    margin-top: 1em;
+  }
+  .menu-sushi1 .menu-sushi1-txt .menu-sushi1-nombre {
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .menu-sushi1 .menu-sushi1-txt .menu-sushi1-des {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1.7em;
+  }
+  .menu-sushi1 .menu-sushi1-txt .menu-sushi1-precio {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 1.6em;
+  }
+  /*NOSOTROS TABLET*/
+  #nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/sushi8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  #nosotros .nosotros-txt {
+    font-family: "Frank Ruhl Libre", serif;
+    margin-top: 2em;
+    width: 60%;
+    margin-bottom: 10em;
+    padding-bottom: 8em;
+    font-size: 2em;
+  }
+  .quienesomos {
+    font-family: "Cinzel Decorative", cursive;
+    margin-top: 5em;
+    font-size: 2.5em;
+  }
+  /*FOOTER TABLET*/
+  .footer-distributed {
+    padding-left: 1em;
+    padding-bottom: 20px;
+  }
+  .footer-distributed a {
+    color: black;
+  }
+  .rollandgofooter {
+    font-family: "Alfa Slab One", serif;
+    padding-top: 1em;
+    margin-top: 1em;
+  }
+}
 /*MODO DESKTOP*/
-@media (min-width: 1281px) {
+@media (min-width: 1025px) {
   /*INDEX DESKTOP*/
   .header {
     display: grid;
@@ -276,6 +484,7 @@
     -webkit-text-decoration: underline solid 5px black;
             text-decoration: underline solid 5px black;
     font-family: "Cinzel Decorative", cursive;
+    font-size: 3em;
   }
   .locales-div {
     display: grid;
@@ -310,6 +519,7 @@
     margin-top: 2em;
     margin-bottom: 2em;
     text-decoration: underline;
+    font-size: 3em;
   }
   .menu-sushi1 {
     display: grid;
